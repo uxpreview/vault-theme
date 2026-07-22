@@ -1,9 +1,10 @@
 /*
- * Pipe Likes Nord
+ * Verdigris — a personal theme by Ryan McCarty
+ * Forked from PLN (Pipe Likes Nord) by PipeItToDevNull
 */
 
 /* @settings
-name: PLN by PipeItToDevNull
+name: Verdigris
 id: pln
 settings:
     -
@@ -22,7 +23,7 @@ settings:
             - 
                 id: color-red-rgb
                 format: rgb
-        default: '#bf616a'
+        default: '#F4F2EC'
     -
         id: color-orange
         title: Orange
@@ -33,7 +34,7 @@ settings:
             - 
                 id: color-orange-rgb
                 format: rgb
-        default: '#d08770'
+        default: '#E0CFAE'
     -
         id: color-yellow-light
         title: Yellow-Light
@@ -45,7 +46,7 @@ settings:
             - 
                 id: color-yellow-light-rgb
                 format: rgb
-        default: '#ebcb8b'
+        default: '#669E92'
     -
         id: color-yellow-dark
         title: Yellow-Dark
@@ -57,7 +58,7 @@ settings:
             - 
                 id: color-yellow-dark-rgb
                 format: rgb
-        default: '#e4b860'
+        default: '#2C6E60'
     -
         id: color-green
         title: Green
@@ -68,7 +69,7 @@ settings:
             - 
                 id: color-green-rgb
                 format: rgb
-        default: '#a3be8c'
+        default: '#588AA3'
     -
         id: color-purple
         title: Purple
@@ -90,7 +91,7 @@ settings:
             - 
                 id: color-sea-green-rgb
                 format: rgb
-        default: '#8fbcbb'
+        default: '#CE7D6B'
     -
         id: color-cyan
         title: Cyan
@@ -101,7 +102,7 @@ settings:
             - 
                 id: color-cyan-rgb
                 format: rgb
-        default: '#88c0d0'
+        default: '#A1A1A1'
     -
         id: color-frost
         title: Frost
@@ -159,7 +160,7 @@ settings:
             - 
                 id: b0-rgb
                 format: rgb
-        default: '#2E3440'
+        default: '#3C3C3C'
     -
         id: b1
         title: B1
@@ -170,7 +171,7 @@ settings:
             - 
                 id: b1-rgb
                 format: rgb
-        default: '#3B4252'
+        default: '#36373B'
     -
         id: b2
         title: B2
@@ -181,7 +182,7 @@ settings:
             - 
                 id: b2-rgb
                 format: rgb
-        default: '#434C5E'
+        default: '#4D4D4D'
     -
         id: b3
         title: B3
@@ -192,7 +193,7 @@ settings:
             - 
                 id: b3-rgb
                 format: rgb
-        default: '#4C566A'
+        default: '#545454'
     -
         id: w0
         title: W0
@@ -214,7 +215,7 @@ settings:
             - 
                 id: w1-rgb
                 format: rgb
-        default: '#E5E9F0'
+        default: '#A2CAB8'
     -
         id: w2
         title: W2
@@ -262,7 +263,7 @@ settings:
         title: Font-UI-Smaller
         description: Used for settings panel category headers and other things
         type: variable-number-slider
-        default: 10
+        default: 12
         min: 10
         max: 30
         step: 1
@@ -272,7 +273,7 @@ settings:
         title: Font-UI-Small
         description: Used for folder names and other things
         type: variable-number-slider
-        default: 10
+        default: 16
         min: 10
         max: 30
         step: 1
@@ -282,7 +283,7 @@ settings:
         title: Font-UI-Medium
         description: Used for settings panel body, calendar
         type: variable-number-slider
-        default: 12
+        default: 14
         min: 10
         max: 30
         step: 1
@@ -292,7 +293,7 @@ settings:
         title: Font-UI-Large
         description: Used for things
         type: variable-number-slider
-        default: 14
+        default: 16
         min: 10
         max: 30
         step: 1
@@ -453,49 +454,49 @@ settings:
         title: Header color toggle
         description: You must open each color and "save" it to render properly
         type: class-toggle
-        default: false
+        default: true
     -
         id: pln-hdcl-1
         title: H1 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#BF616A'
+        default: '#FFFFFF'
     -
         id: pln-hdcl-2
         title: H2 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#D08770'
+        default: '#FFDB9B'
     -
         id: pln-hdcl-3
         title: H3 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#EBCB8B'
+        default: '#D8FF9B'
     -
         id: pln-hdcl-4
         title: H4 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#A3BE8C'
+        default: '#9BFFD9'
     -
         id: pln-hdcl-5
         title: H5 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#8FBCBB'
+        default: '#9BBBFF'
     -
         id: pln-hdcl-6
-        title: H5 color
+        title: H6 color
         type: variable-color
         opacity: false
         format: hex
-        default: '#88C0D0'
+        default: '#FF9B9B'
     -
         id: pln-head-props
         title: Properties modifications
@@ -795,14 +796,14 @@ settings:
 
 .theme-light,
 .theme-dark {
-    --color-red: #bf616a;
-    --color-orange: #d08770;
-    --color-yellow-light: #ebcb8b;
-    --color-yellow-dark: #e4b860;
-    --color-green: #a3be8c;
+    --color-red: #F4F2EC;
+    --color-orange: #E0CFAE;
+    --color-yellow-light: #669E92;
+    --color-yellow-dark: #2C6E60;
+    --color-green: #588AA3;
     --color-purple: #b48ead;
-    --color-sea-green: #8fbcbb;
-    --color-cyan: #88c0d0;
+    --color-sea-green: #CE7D6B;
+    --color-cyan: #A1A1A1;
     --color-frost: #81a1c1;
     --color-blue: #5e81ac;
     --color-salmon: #FC6E68;
@@ -815,30 +816,30 @@ settings:
     --accent-dark-hsl-s: 34%;
     --accent-dark-hsl-l: 63%;
 
-    --color-red-rgb: 191, 97, 106;
-    --color-orange-rgb: 208, 135, 112;
-    --color-yellow-light-rgb: 235, 203, 139;
-    --color-yellow-dark-rgb: 228, 184, 96;
-    --color-green-rgb: 163, 190, 140;
+    --color-red-rgb: 244, 242, 236;
+    --color-orange-rgb: 224, 207, 174;
+    --color-yellow-light-rgb: 102, 158, 146;
+    --color-yellow-dark-rgb: 44, 110, 96;
+    --color-green-rgb: 88, 138, 163;
     --color-purple-rgb: 180, 142, 173;
-    --color-sea-green-rgb: 143, 188, 187;
-    --color-cyan-rgb: 136, 192, 208;
+    --color-sea-green-rgb: 206, 125, 107;
+    --color-cyan-rgb: 161, 161, 161;
     --color-frost-rgb: 129, 161, 193;
     --color-blue-rgb: 94, 129, 172;
     --color-salmon-rgb: 252, 110, 104;
 
-    --b0: #2E3440;
-    --b1: #3B4252;
-    --b2: #434C5E;
-    --b3: #4C566A;
+    --b0: #3C3C3C;
+    --b1: #36373B;
+    --b2: #4D4D4D;
+    --b3: #545454;
 
     --w0: #D8DEE9;
-    --w1: #E5E9F0;
+    --w1: #A2CAB8;
     --w2: #ECEFF4;
     --w3: #f5f7f9;
 
     --w0-rgb: 216, 222, 233;
-    --b3-rgb: 76, 86, 106;
+    --b3-rgb: 84, 84, 84;
 
     --text-error: var(--color-salmon);
     --text-accent: var(--color-accent);
@@ -988,10 +989,10 @@ settings:
  * Main
 */
 body {
-    --font-ui-smaller: 10px;
-    --font-ui-small: 10px;
-    --font-ui-medium: 12px;
-    --font-ui-large: 14px;
+    --font-ui-smaller: 12px;
+    --font-ui-small: 16px;
+    --font-ui-medium: 14px;
+    --font-ui-large: 16px;
     --header-height: 30px;
     --file-folding-offset: 10px;
     /* 1.1 fixes */
@@ -1034,12 +1035,12 @@ body {
 
 /* header colors */
 .pln-hdcl {
-    --pln-hdcl-1: #BF616A;
-    --pln-hdcl-2: #D08770;
-    --pln-hdcl-3: #EBCB8B;
-    --pln-hdcl-4: #A3BE8C;
-    --pln-hdcl-5: #8FBCBB;
-    --pln-hdcl-6: #88C0D0;
+    --pln-hdcl-1: #FFFFFF;
+    --pln-hdcl-2: #FFDB9B;
+    --pln-hdcl-3: #D8FF9B;
+    --pln-hdcl-4: #9BFFD9;
+    --pln-hdcl-5: #9BBBFF;
+    --pln-hdcl-6: #FF9B9B;
     --h1-color: var(--pln-hdcl-1);
     --h2-color: var(--pln-hdcl-2);
     --h3-color: var(--pln-hdcl-3);

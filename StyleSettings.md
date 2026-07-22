@@ -1,23 +1,23 @@
 # Style Settings
 ## Colours
 - title: Red
-    - default: '#bf616a'
+    - default: '#F4F2EC'
 - title: Orange
-    - default: '#d08770'
+    - default: '#E0CFAE'
 - title: Yellow-Light
     - description: Used on the dark theme
-    - default: '#ebcb8b'
+    - default: '#669E92'
 - title: Yellow-Dark
     - description: Used on the light theme
-    - default: '#e4b860'
+    - default: '#2C6E60'
 - title: Green
-    - default: '#a3be8c'
+    - default: '#588AA3'
 - title: Purple
     - default: '#b48ead'
 - title: Sea-Green
-    - default: '#8fbcbb'
+    - default: '#CE7D6B'
 - title: Cyan
-    - default: '#88c0d0'
+    - default: '#A1A1A1'
 - title: Frost
     - default: '#81a1c1'
 - title: Blue
@@ -29,17 +29,17 @@
 - title: Accent Dark
     - default: '#81a1c1'
 - title: B0
-    - default: '#2E3440'
+    - default: '#3C3C3C'
 - title: B1
-    - default: '#3B4252'
+    - default: '#36373B'
 - title: B2
-    - default: '#434C5E'
+    - default: '#4D4D4D'
 - title: B3
-    - default: '#4C566A'
+    - default: '#545454'
 - title: W0
     - default: '#D8DEE9'
 - title: W1
-    - default: '#E5E9F0'
+    - default: '#A2CAB8'
 - title: W2
     - default: '#ECEFF4'
 - title: W3
@@ -51,16 +51,16 @@
 ## Font modifications
 - title: Font-UI-Smaller
     - description: Used for settings panel category headers and other things
-    - default: 10
+    - default: 12
 - title: Font-UI-Small
     - description: Used for folder names and other things
-    - default: 10
+    - default: 16
 - title: Font-UI-Medium
     - description: Used for settings panel body, calendar
-    - default: 12
+    - default: 14
 - title: Font-UI-Large
     - description: Used for things
-    - default: 14
+    - default: 16
 - title: More italic italics
     - description: Make italics more pronounced
     - default: true
@@ -128,19 +128,19 @@
 ## Header colors
 - title: Header color toggle
     - description: You must open each color and "save" it to render properly
-    - default: false
+    - default: true
 - title: H1 color
-    - default: '#BF616A'
+    - default: '#FFFFFF'
 - title: H2 color
-    - default: '#D08770'
+    - default: '#FFDB9B'
 - title: H3 color
-    - default: '#EBCB8B'
+    - default: '#D8FF9B'
 - title: H4 color
-    - default: '#A3BE8C'
+    - default: '#9BFFD9'
 - title: H5 color
-    - default: '#8FBCBB'
-- title: H5 color
-    - default: '#88C0D0'
+    - default: '#9BBBFF'
+- title: H6 color
+    - default: '#FF9B9B'
 ## Properties modifications
 - title: Hide properties in reading mode
     - description: Hide the metadata properties box when in reading mode. Add 'hide-properties' as a class to any file to selectively apply this.
